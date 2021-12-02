@@ -30,6 +30,9 @@ import MyVerticallyCenteredModal from "./VerticallyCenteredModal.js";
 
 function PostForm2() {
   const [modalShow, setModalShow] = React.useState(false);
+  
+  // Code Review by Shushu Chen: Great use of the useNavigate hook.
+  // I will try this hook in my project too!
   const navigate = useNavigate();
 
   //all posts that belongs to this user.
